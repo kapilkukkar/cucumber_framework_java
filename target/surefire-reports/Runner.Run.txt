@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: Runner.Run
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.618 s <<< FAILURE! - in Runner.Run
+Login.Sucessful Login With valid Credentials DDT #2  Time elapsed: 3.22 s  <<< FAILURE!
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at StepDefination.StepDef.page_title_should_be(StepDef.java:113)
+	at ✽.Page Title should be "Dashboard / nopCommerce administration"(file:///C:/Users/kumar/eclipse-workspace/CucumberFramwork/./Features/LoginFeature.feature:23)
+
